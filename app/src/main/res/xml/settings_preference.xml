@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.akpdeveloper.baatcheet.fragments.settingsfragments.ProfilePicPreference
+        android:key="preference_profile_pic"
+        android:layout="@layout/custom_layout_for_image_in_settings"/>
+
+    <MultiSelectListPreference
+        android:key="preference_theme"
+        android:title="Theme"
+        />
+
+    <Preference
+        android:key="1"
+        android:title="Notification"/>
+
+    <Preference
+        android:key="2"
+        android:title="App language"/>
+</PreferenceScreen>

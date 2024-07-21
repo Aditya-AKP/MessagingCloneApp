@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChatRoomActivity">
+
+    <RelativeLayout
+        android:id="@+id/ChatActToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:background="@color/deep_orange">
+        
+        <ImageView
+            android:id="@+id/ChatActBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/baseline_arrow_back_24"/>
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ChatActProfilePicture"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/baseline_account_circle_24"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/ChatActBackButton"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/ChatActUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="username"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/ChatActProfilePicture"/>
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ChatActRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ChatActToolbar"
+        android:layout_above="@id/ChatActBottomRL"/>
+
+    <RelativeLayout
+        android:id="@+id/ChatActBottomRL"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:elevation="5dp"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/ChatActEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/ChatActSendButton"
+            android:autofillHints=""
+            android:inputType="text"
+            android:hint="Write Message Here"
+            />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/ChatActSendButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="Send"
+            android:src="@drawable/baseline_send_24"
+            android:layout_alignParentEnd="true"
+            android:padding="10dp"
+            android:backgroundTint="@color/dark_orange"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

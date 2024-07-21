@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusActivity">
+
+    <TextView
+        android:id="@+id/StatusActText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/StatusActImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <VideoView
+        android:id="@+id/StatusActVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <ProgressBar
+        android:id="@+id/StatusActProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <RelativeLayout
+        android:id="@+id/StatusActDesProfile"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/StatusActProfileImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_account_circle_24"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"/>
+
+        <TextView
+            android:id="@+id/StatusActProfileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hello"
+            android:layout_marginTop="5dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/StatusActProfileImage"
+            android:layout_toStartOf="@+id/StatusActProfileNumber"
+            android:layout_above="@+id/StatusActProfileDate"/>
+
+        <TextView
+            android:id="@+id/StatusActProfileDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45:74"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/StatusActProfileImage"
+            android:layout_toStartOf="@+id/StatusActProfileNumber"/>
+
+        <TextView
+            android:id="@+id/StatusActProfileNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/0"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:padding="5dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/StatusActDesArea"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/grey">
+
+        <TextView
+            android:id="@+id/StatusActDesText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:padding="25dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

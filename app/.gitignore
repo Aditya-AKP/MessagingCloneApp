@@ -1,0 +1,7 @@
+/build
+/google-services.json
+/proguard-rules.pro
+/src/main/java/com/akpdeveloper/baatcheet/StatusActivity.java
+/src/main/res/layout/activity_status.xml
+/src/main/java/com/akpdeveloper/baatcheet/adapter/StatusFragmentAdapter.java
+/src/main/java/com/akpdeveloper/baatcheet/fragments/StatusFragment.java
