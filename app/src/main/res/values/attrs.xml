@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme">
+        <attr name="textColor" format="color" />
+        <attr name="inverse_textColor" format="color"/>
+        <attr name="special_textColor" format="color"/>
+        <attr name="receiver_message_chat_color" format="color"/>
+        <attr name="dark_color" format="color"/>
+        <attr name="deep_color" format="color"/>
+        <attr name="normal_color" format="color"/>
+        <attr name="light_color" format="color"/>
+        <attr name="very_light_color" format="color"/>
+        <attr name="chat_background" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="unsupported">Unsupported</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+
+    <string name="Settings_Preference_Theme">THEME</string>
+    <string name="Settings_Preference_light_Theme">Light Mode</string>
+    <string name="Settings_Preference_dark_Theme">Dark Mode</string>
+    <string name="Settings_Preference_App_language">LANGUAGE</string>
+    <string-array name="Theme_Entry">
+        <item>System(Default)</item>
+        <item>Light Mode</item>
+        <item>Dark Mode</item>
+    </string-array>
+    <string-array name="Language_Entry">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+
+
+
+    <string name="app_name">बातचित</string>
+    <string name="Login_Activity_welcome_to_baatcheet">बातचीत में आपका स्वागत है</string>
+    <string name="Login_Activity_verify_your_number">अपना नंबर सत्यापित करें</string>
+    <string name="Login_Activity_please_enter_your_mobile_number">
+अपना मोबाइल नंबर दर्ज करें। आपको सत्यापन कोड सहित एक एसएमएस मिलेगा।</string>
+    <string name="Login_Activity_next_button">आगे बढ़े</string>
+    <string name="Login_Activity_Hint_mobile_no">मोबाइल नंबर</string>
+
+    <string name="OTP_Activity_verify_number">%s सत्यापित करें</string>
+    <string name="OTP_Activity_enter_otp_to_verify">ओटीपी दर्ज करें, हमने अभी %s पर भेजा है|</string>
+    <string name="confirm">पुष्टि करे</string>
+    <string name="OTP_Activity_resend_otp">ओटीपी पुनः भेजें</string>
+    <string name="OTP_Activity_resend_otp_for_this_sec">%s सेकंड में ओटीपी पुनः भेजें</string>
+
+
+    <string name="Set_Up_Activity_profile_info">प्रोफ़ाइल जानकारी</string>
+    <string name="Set_Up_Activity_enter_profile_details">प्रोफ़ाइल विवरण दर्ज करें</string>
+    <string name="Set_Up_about">मेरे बारे में</string>
+    <string name="Set_Up_name">नाम</string>
+    <string name="Set_Up_about_text">मेरे बारे में :</string>
+    <string name="Set_Up_name_text">नाम :</string>
+    <string name="Set_Up_name_cannot_be_less_than">नाम 3 अक्षर से कम नहीं हो सकता</string>
+    <string name="Set_Up_default_about">Want to BaatCheet</string>
+
+
+    <string name="Main_Activity_chats">चैट</string>
+    <string name="Main_Activity_people">लोग</string>
+    <string name="Main_Activity_status">स्थिति</string>
+    <string name="Main_Activity_group">GROUPS</string>
+    <string name="Main_Activity_more_menu_settings">Settings</string>
+
+
+    <string name="Chat_Activity_Edittext_hint">Write Message Here</string>
+    <string name="Chat_Activity_attach_file">Attach Media</string>
+    <string name="Chat_Activity_username">Username</string>
+
+    <string name="People_Fragment_contact_required">CONTACT REQUIRED</string>
+    <string name="Main_Activity_more_menu_logout">Logout</string>
+
+
+    <string-array name="Theme_Array">
+        <item>System</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+</resources>

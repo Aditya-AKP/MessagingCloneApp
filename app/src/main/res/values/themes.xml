@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Messanger" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">?attr/deep_color</item>
+
+        <item name="chat_background">@color/cream</item>
+        <item name="textColor">@color/black</item>
+        <item name="inverse_textColor">@color/white</item>
+        <item name="special_textColor">@color/grey</item>
+        <item name="receiver_message_chat_color">@color/white</item>
+
+
+        <item name="deep_color">@color/deep_orange</item>
+        <item name="dark_color">@color/dark_orange</item>
+        <item name="normal_color">@color/normal_orange</item>
+        <item name="light_color">@color/light_orange</item>
+        <item name="very_light_color">@color/very_light_orange</item>
+    </style>
+
+    <style name="Theme.Messanger" parent="Base.Theme.Messanger" />
+
+    <style name="alertDialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:textColor">?attr/deep_color</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>

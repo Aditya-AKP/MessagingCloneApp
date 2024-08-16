@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetUpActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Set_Up_Activity_profile_info"
+        android:textAlignment="center"
+        android:textSize="35sp"
+        android:textColor="?attr/dark_color"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Set_Up_Activity_enter_profile_details"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textColor="?attr/textColor"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/SetUpImage"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_Up_name_text"
+            android:textColor="?attr/textColor"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:id="@+id/SetUpName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="25"
+            android:autofillHints=""
+            android:hint="@string/Set_Up_name"
+            android:textColor="?attr/textColor"
+            android:inputType="text" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Set_Up_about_text"
+            android:textColor="?attr/textColor"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"/>
+
+        <EditText
+            android:id="@+id/SetUpAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:maxLength="100"
+            android:autofillHints=""
+            android:hint="@string/Set_Up_about"
+            android:textColor="?attr/textColor"
+            android:inputType="text"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/SetUpNextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/Login_Activity_Description_next_button"
+        android:text="@string/Login_Activity_next_button"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:backgroundTint="?attr/normal_color"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <ProgressBar
+        android:id="@+id/SetUpProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

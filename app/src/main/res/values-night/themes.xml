@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Messanger" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="windowSplashScreenBackground">@color/black</item>
+<!--        <item name="android:windowSplashScreenBrandingImage"></item>-->
+        <item name="windowActionBar">false</item>
+        <item name="android:statusBarColor">?attr/deep_color</item>
+
+        <item name="chat_background">@color/light_black</item>
+        <item name="textColor">@color/white</item>
+        <item name="inverse_textColor">@color/black</item>
+        <item name="special_textColor">@color/cream</item>
+        <item name="receiver_message_chat_color">@color/very_very_light_black</item>
+
+        <item name="deep_color">@color/night_deep_orange</item>
+        <item name="dark_color">@color/night_dark_orange</item>
+        <item name="normal_color">@color/night_normal_orange</item>
+        <item name="light_color">@color/night_light_orange</item>
+        <item name="very_light_color">@color/night_very_light_orange</item>
+    </style>
+
+
+    <style name="alertDialog" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="android:textColor">?attr/deep_color</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+</resources>

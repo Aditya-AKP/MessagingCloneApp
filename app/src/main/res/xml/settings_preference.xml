@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.akpdeveloper.baatcheet.fragments.settingsfragments.ProfilePicPreference
+        android:key="preference_profile_pic"
+        android:layout="@layout/custom_layout_for_image_in_settings"/>
+
+    <ListPreference
+        android:key="preference_theme"
+        android:title="@string/Settings_Preference_Theme"
+        android:icon="@drawable/baseline_color_lens_24"
+        android:entries="@array/Theme_Entry"
+        android:entryValues="@array/Theme_Values"
+        android:defaultValue="system"
+        app:useSimpleSummaryProvider="true"
+        />
+
+<!--    <ListPreference-->
+<!--        android:key="preference_language"-->
+<!--        android:title="@string/Settings_Preference_App_language"-->
+<!--        android:defaultValue="eng"-->
+<!--        android:entries="@array/Language_Entry"-->
+<!--        android:entryValues="@array/Language_Values"-->
+<!--        app:useSimpleSummaryProvider="true"/>-->
+
+<!--    <Preference-->
+<!--        android:key="1"-->
+<!--        android:title="Notification"/>-->
+
+    <Preference
+        android:key="preference_clear"
+        android:title="Clear"
+        android:summary="Clear all messages"
+        android:icon="@drawable/baseline_cleaning_services_24"
+        />
+
+    <Preference
+        android:key="preference_logout"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"
+        />
+
+    <Preference
+        android:key="preference_version"
+        android:title="App Version"/>
+
+
+
+</PreferenceScreen>

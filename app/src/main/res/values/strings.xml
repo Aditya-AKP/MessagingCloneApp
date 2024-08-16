@@ -1,0 +1,96 @@
+<resources>
+    <!--    COMMON STRINGS-->
+    <string name="app_name">BaatCheet</string>
+    <string name="dummy_date" translatable="false">00-00-0000</string>
+    <string name="dummy_time" translatable="false">00:00</string>
+    <string name="unsupported">Unsupported</string>
+    <string name="dummy_long_text" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="dummy_short_text" translatable="false">Lorem ipsum</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+
+    <!--    LAYOUTS STRINGS-->
+    <string name="Sender_Message_Layout_Message_Status_content_description" translatable="false">Message Status</string>
+    <string name="Sender_Message_Layout_ImageView_content_description" translatable="false">Image</string>
+
+
+    <!--    SETTINGS-->
+    <string name="Settings_Preference_Theme">THEME</string>
+    <string name="Settings_Preference_light_Theme">Light Mode</string>
+    <string name="Settings_Preference_dark_Theme">Dark Mode</string>
+    <string name="Settings_Preference_App_language">LANGUAGE</string>
+    <string-array name="Theme_Entry">
+        <item>System(Default)</item>
+        <item>Light Mode</item>
+        <item>Dark Mode</item>
+    </string-array>
+    <string-array name="Theme_Values" translatable="false">
+        <item>system</item>
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+    <string-array name="Language_Entry">
+        <item>English</item>
+        <item>Hindi</item>
+    </string-array>
+    <string-array name="Language_Values" translatable="false">
+        <item>en</item>
+        <item>hi</item>
+    </string-array>
+
+
+    <!--    LOGIN ACTIVITY -->
+    <string name="Login_Activity_welcome_to_baatcheet">Welcome to BaatCheet</string>
+    <string name="Login_Activity_verify_your_number">Verify your Number</string>
+    <string name="Login_Activity_please_enter_your_mobile_number">Please enter your mobile number. You will get a SMS including a verification code.</string>
+    <string name="Login_Activity_Description_countrycode_picker" translatable="false">countryCode Picker</string>
+    <string name="Login_Activity_Description_enter_mobile_number" translatable="false">Enter Mobile Number</string>
+    <string name="Login_Activity_Description_next_button" translatable="false">Next Button</string>
+    <string name="Login_Activity_next_button">NEXT</string>
+    <string name="Login_Activity_Hint_mobile_no">Mobile No.</string>
+
+    <!--    OTP ACTIVITY -->
+    <string name="OTP_Activity_verify_number">Verify %s</string>
+    <string name="OTP_Activity_enter_otp_to_verify">Resend OTP in %s</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="OTP_Activity_resend_otp">Resend OTP</string>
+    <string name="OTP_Activity_Description_enter_otp" translatable="false">Enter OTP</string>
+    <string name="OTP_Activity_Description_confirm_button" translatable="false">Confirm Button</string>
+    <string name="OTP_Activity_resend_otp_for_this_sec">Resend OTP in %s seconds</string>
+    <string name="OTP_Activity_OTP_edit_text_hint" translatable="false">------</string>
+
+    <!--    SET UP ACTIVITY -->
+    <string name="Set_Up_Activity_profile_info">Profile Info</string>
+    <string name="Set_Up_Activity_enter_profile_details">Enter Profile details</string>
+    <string name="Set_Up_about">Write about section</string>
+    <string name="Set_Up_name">Enter Name</string>
+    <string name="Set_Up_about_text">About :</string>
+    <string name="Set_Up_name_text">Name :</string>
+    <string name="Set_Up_name_cannot_be_less_than">Name cannot be less than 3 characters</string>
+    <string name="Set_Up_default_about">Want to BaatCheet</string>
+
+    <!--   MAIN ACTIVITY -->
+    <string name="Main_Activity_chats">CHATS</string>
+    <string name="Main_Activity_people">PEOPLE</string>
+    <string name="Main_Activity_status">STATUS</string>
+    <string name="Main_Activity_group">GROUPS</string>
+    <string name="Main_Activity_more_menu_settings">Settings</string>
+    <string name="Main_Activity_Description_Tab_Layout" translatable="false">Tab Layout</string>
+
+    <!--    CHAT ACTIVITY-->
+    <string name="Chat_Activity_Edittext_hint">Write Message Here</string>
+    <string name="Chat_Activity_attach_file">Attach Media</string>
+    <string name="Chat_Activity_username">Username</string>
+
+
+    <!--    PEOPLE FRAGMENT-->
+    <string name="People_Fragment_contact_required">No Contacts</string>
+    <string name="Main_Activity_more_menu_logout">Logout</string>
+
+
+    <string-array name="Theme_Array">
+        <item>System</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+</resources>
